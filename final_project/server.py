@@ -19,7 +19,7 @@ def frenchToEnglish(french_text):
     resp = translator.french_to_english(textToTranslate)
     return resp
 
-@app.route("/static/mywebscript.js")
+@app.route("/")
 def renderIndexPage():
     # Write the code to render template
     return render_template('/xzceb-flask_eng_fr/final_project/static/mywebscript.js')
